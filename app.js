@@ -1,8 +1,8 @@
 import express from "express";
 import mysql from "mysql2/promise";
 
-const app = express();
-const port = 3000;
+const app = express() ;
+const port = 3000; 
 async function startServer() {
     let connection;
     let retries = 5;
